@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-  baseURL: 'http://localhost:5000/api', // Your backend's base URL
+  baseURL: 'http://dess-directors-backend.onrender.com/api', // Your backend's base URL
 });
 
 // Interceptor to attach token from localStorage to each request
